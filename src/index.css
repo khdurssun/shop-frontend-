@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
+
+.skeleton {
+  background: linear-gradient(90deg, #eef1f6 0px, #f7f9fc 40px, #eef1f6 80px);
+  background-size: 600px 100%;
+  @apply animate-shimmer rounded-lg;
+}
